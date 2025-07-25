@@ -1,10 +1,10 @@
-import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.2/firebase-app.js"
+import { initializeApp } from "https://www.gstatic.com/firebasejs/12.0.0/firebase-app.js";
 import { getDatabase,
          ref,
-         push } from "https://www.gstatic.com/firebasejs/10.7.2/firebase-database.js"
+         push } from "https://www.gstatic.com/firebasejs/12.0.0/firebase-database.js"
 
 const firebaseConfig = {
-    databaseURL: "https://birthday-app-75b25-default-rtdb.europe-west1.firebasedatabase.app/"
+    databaseURL: "https://birthday-tracker-557a4-default-rtdb.asia-southeast1.firebasedatabase.app/"
 }
 
 const app = initializeApp(firebaseConfig)
